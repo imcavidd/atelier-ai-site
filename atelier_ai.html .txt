@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATELIER Aİ - AI Photography Studio</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; color: #111; background-color: #fff; }
+    header { text-align: center; padding: 50px 20px; background-color: #f5f5f5; }
+    header h1 { font-size: 3em; margin: 0; }
+    header p { font-size: 1.2em; color: #555; }
+    nav { text-align: center; margin: 20px 0; }
+    nav a { margin: 0 15px; text-decoration: none; color: #111; font-weight: bold; }
+    section { padding: 50px 20px; max-width: 1000px; margin: 0 auto; }
+    h2 { text-align: center; margin-bottom: 30px; }
+    .services, .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+    .service-card, .portfolio-item { border: 1px solid #ddd; padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s; }
+    .service-card:hover, .portfolio-item:hover { transform: scale(1.05); }
+    footer { text-align: center; padding: 30px 20px; background-color: #f5f5f5; color: #555; }
+    button { padding: 10px 20px; border: none; border-radius: 5px; background-color: #111; color: #fff; cursor: pointer; font-size: 1em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ATELIER Aİ</h1>
+  <p>AI-powered photography studio | Where art meets intelligence</p>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3>Portraits</h3>
+      <p>Cinematic, emotional shots with AI-enhanced lighting and color.</p>
+    </div>
+    <div class="service-card">
+      <h3>Fashion</h3>
+      <p>Stylish, dynamic fashion shoots with AI texture and color enhancement.</p>
+    </div>
+    <div class="service-card">
+      <h3>AI Visual Concepts</h3>
+      <p>Futuristic, creative AI-generated imagery for unique projects.</p>
+    </div>
+    <div class="service-card">
+      <h3>Personal Branding</h3>
+      <p>Creating a unique visual style for clients and social media presence.</p>
+    </div>
+    <div class="service-card">
+      <h3>Logos & Branding</h3>
+      <p>Minimalist logos and brand identity creation for consistent visuals.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="portfolio-item">Example Image 1</div>
+    <div class="portfolio-item">Example Image 2</div>
+    <div class="portfolio-item">Example Image 3</div>
+    <div class="portfolio-item">Example Image 4</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About ATELIER Aİ</h2>
+  <p style="text-align:center; max-width:700px; margin: 0 auto;">ATELIER Aİ is a photography studio powered by AI, combining cutting-edge technology with artistic creativity. We specialize in portraits, fashion, AI-generated visual concepts, personal branding, and logo & brand design.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p style="text-align:center;">Email: studio@atelierai.com</p>
+  <p style="text-align:center;">Phone: +123 456 7890</p>
+  <p style="text-align:center;"><button>Book a Session</button></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 ATELIER Aİ. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
